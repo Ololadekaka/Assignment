@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ololade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,800;1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" /> 
+</head>
+
+<body>
+  <header class="contacthead">
+    <nav>
+      <div class="logo">ololade</div>
+      <div class="navigation">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+<li><a href="#about-link">ABOUT ME</a></li>
+<li><a href="PROJECT-link">PROJECT</a></li>
+<li><a href="#services-link">SERVICES</a></li>
+
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+<div class=#"myHero">
+<h1>Ololade <br/>kaka</h1>
+<p>marriage mentor and creative web designer</p>
+</div>
+  </header>
+  <main>
+    <section class="aboutme">
+      <div class="about-img">
+        <img
+          src=ololade%20picture.jpg
+          width="416px" height="416px" />
+      </div>
+      <div id="about-link" class="about-details">
+        <h1>Contact Me</h1>
+        <p>
+        <form method="POST" action="" autocomplete="on">
+          <label for="firstname">Firstname:</label>
+          <input type="text" name="firstname" id="firstname" placeholder="firstname" autofocus required />
+          <label for="lastname">Lastname:</label>
+          <input type="text" name="lastname" id="lastname" placeholder="lastname" required />
+          <label for="Phone Number">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" placeholder="0805-555-5555" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+            maxlength="13" required />
+          <label for="email">Email:</label>
+          <input type="email" pattern=".+@gmail\.com" name="email" id="email" placeholder="Your Email" size="64"
+            maxLength="64" required />
+
+
+          <button type="submit">SUBMIT</button>
+
+        </form>
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
